@@ -42,6 +42,11 @@ class PagesController extends Controller
 		return view('page.details');
 	}
 	
+	public function exterior()
+	{
+		return view('page.exterior');
+	}
+	
 	public function testimonials()
 	{
 		return view('page.testimonials');
