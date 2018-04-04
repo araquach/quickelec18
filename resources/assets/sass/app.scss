@@ -308,6 +308,11 @@ header {
     background-size: cover;
 }
 
+.banner-image-7 {
+    background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
 
 %banner-copy {
 	width: 23em;
@@ -373,7 +378,7 @@ header {
 // --------------------
 
 .full-page {
-    background: rgba($white, 0.8);
+    background: rgba($white, 0.9);
     padding: 5em;
     float: left;
     
@@ -402,7 +407,7 @@ header {
 
 .page-content img {
     margin-bottom: 3em;
-    border: 2px solid $blue;
+    border: 2px solid $white;
     padding: .2em;
     
     @media #{$mobile-device} {
@@ -420,6 +425,7 @@ header {
     @media #{$mobile-device} {
             float: none;
             border: none;
+            width: auto;
             margin: auto;
             margin-top: 1em;
     }
@@ -471,6 +477,10 @@ a.sector-link {
     &:hover {
         opacity: .7;
     }
+    
+    @media #{$mobile-device} {
+            font-size: 1em;
+    }
 }
 
 //
@@ -496,6 +506,23 @@ a.sector-link {
 
 .page-content.domestic {
     background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
+    background-size: cover;
+    
+    ul {
+        margin-bottom: 3em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
+}
+
+//
+// Exterior Page Styling
+// --------------------
+
+.page-content.exterior {
+    background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
     background-size: cover;
     
     ul {
@@ -593,6 +620,22 @@ a.sector-link {
         margin-bottom: 1.1em;
         font-size: 1em;
     }
+    
+    ul {
+        border: 1px solid red;
+        background: lighten(red, 50%);
+        padding: 1em;
+        margin-bottom: 2em;
+        
+        li {
+            color: red;
+            list-style: none;
+        }
+    }
+    
+    .errorMessage {
+        color: red;
+    }
 }
 
 
@@ -613,6 +656,7 @@ footer {
         
         @media #{$mobile-device} {
             width: 50%;
+            margin-top: -1em;
         }
     }
     

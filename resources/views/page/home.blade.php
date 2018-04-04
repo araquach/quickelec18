@@ -29,6 +29,9 @@
         <li class="banner-image banner-image-6"><a href="{{ URL::to('about') }}"><div class="banner-copy left"><span class="header">Energy saving upgrades<br></span>
         <br>Upgrade your home or business with Quick-Elec and save upto 30% on your energy bills.
         <br><br><strong>More here ></strong></div></a></li>
+        <li class="banner-image banner-image-7"><a href="{{ URL::to('exterior') }}"><div class="banner-copy right"><span class="header">Add lighting to your outdoor space<br></span>
+        <br>Add a touch of class to your garden or patio area
+        <br><br><strong>More here ></strong></div></a></li>
     </ul>
 </div>
 

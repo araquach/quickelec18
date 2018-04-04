@@ -199,6 +199,11 @@ header {
     background-size: cover;
 }
 
+.banner-image-7 {
+    background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
 
 %banner-copy {
 	width: 23em;
@@ -331,7 +336,24 @@ header {
 // --------------------
 
 .page-content.domestic {
-    background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
+    background: url('/images/stock/qe_living_room.jpg') no-repeat top center;
+    background-size: cover;
+    
+    ul {
+        margin-bottom: 3em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
+}
+
+//
+// Domestic Page Styling
+// --------------------
+
+.page-content.domestic {
+    background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
     background-size: cover;
     
     ul {

@@ -3,11 +3,10 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'title' => ''
+	'ogtitle' => 'Contact Us',
+	'ogdescription' => 'For quotes and enquiries don\'t hesitate to get in touch',
+	'ogimage' => url('/') . '/images/fb_og/qe_reception_desk_fb.jpg',
+	'title' => 'Warrington, Cheshire & North West Electricians | Contact Us | Quick-Elec'
 	])
 @stop
 
@@ -24,9 +23,9 @@
             </div>
         @endif
         
-        <p><strong>Please complete the form below and we'll get back to you as soon as possible</strong></p>
+        <p><strong>Please complete the form below and we'll get back to you as soon as possible or call us on 07943 707648</strong></p>
        
-        <p><strong>If you have an electrical emergency please call:<br> 07943 707648</strong></p>
+        <p><strong>If you have an electrical emergency please call:<br> 07943 707648</strong> we are open 24/7</p>
 
         @if (count($errors) > 0)
         <div>

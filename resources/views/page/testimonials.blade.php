@@ -3,11 +3,11 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'title' => ''
+	'description' => 'See what our customers think about some of the recent electrical work we\'ve carried out',
+	'ogtitle' => 'Testimonials',
+	'ogdescription' => 'See what our customers think about some of the recent work we\'ve carried out',
+	'ogimage' => url('/') . '/images/fb_og/qe_kitchen_fb.jpg',
+	'title' => 'Warrington, Cheshire & North West Electricians | Testimonials | Quick-Elec'
 	])
 @stop
 
@@ -16,6 +16,49 @@
 <div class="page-content testimonials">
     <div class="full-page">
     	<h2>See what our customers think&hellip;</h2>
+    	
+    	
+    	
+    	<div class="quote-left">
+    		<p>"George was quick to respond, with a very reasonable quote, and did an excellent job. Wouldn't hesitate to recommend him, and we will be using his services again."</p>
+    		<p>Work done: Lighting & Power - Internal</p>
+    		<p>Dave, Crewe</p>
+    	</div>
+    	<div class="quote-right">
+    		<p>"Excellent work by George. Rang with decent quote, arrived on time and job was completed quickly and efficiently! Will definitely use again."</p>
+    		<p>Work done: Lighting & Power - External</p>
+    		<p>Gail, WA3</p>
+    	</div>
+    	<div class="quote-left">
+    		<p>"Contacted me within 10 minutes of posting the job. Came the following day, on time, and resolved the electrical fault. Excellent service."</p>
+    		<p>Work done: Lighting & Power - Internal</p>
+    		<p>Sue, WA8</p>
+    	</div>
+    	<div class="quote-right">
+    		<p>"Would recommend, great job and we'll communicated."</p>
+    		<p>Work done: Lighting & Power - External</p>
+    		<p>Wayne, WA13</p>
+    	</div>
+    	<div class="quote-left">
+    		<p>"George was very helpful, arrived when promised and came out in the evening as we needed job doing fairly urgently. Would highly recommend."</p>
+    		<p>Work done: Lighting & Power - External</p>
+    		<p>Lisa WA13</p>
+    	</div>
+    	<div class="quote-right">
+    		<p>"Timely and Efficient Service. Knowledgeable Electrician. Problem Sorted less than 1 Hour. Will use Again."</p>
+    		<p>Work done: Lighting & Power - Internal</p>
+    		<p>Stephen, WA2</p>
+    	</div>
+    	<div class="quote-left">
+    		<p>"Quick and efficient service, I would have no hesitation in recommending George"</p>
+    		<p>Work done: Lighting & Power - Internal</p>
+    		<p>Alyson, WA3</p>
+    	</div>
+    	<div class="quote-right">
+    		<p>"Job well done and highly recommendable will be using again when needed."</p>
+    		<p>Work done: Lighting & Power - Internal</p>
+    		<p>Kevin, WA3</p>
+    	</div>
     	<div class="quote-left">
     		<p>"Very pleased with the work, seemed very knowledgeable and friendly. Have recommended them to friends"</p>
     		<p>Work done: Replaced down lights in kitchen</p>

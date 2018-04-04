@@ -3,11 +3,16 @@
 @section('head')
 
 @include('layouts.partials.head', [
-	'description' => '',
-	'keywords' => '',
-	'ogtitle' => '',
-	'ogdescription' => '',
-	'title' => 'Quick-Elec Commercial Electricians'
+	'description' => 'At QUICK-ELEC we have the experience and qualifications to be well equipped to carry out all types of Commercial work quickly and efficiently.
+						Aiming at all times to achieve 100% customer satisfaction with our prompt and friendly service, if you require:
+						Fault Finding & Repairs, New Installations, Rewiring, Emergency Lighting, Fire Alarm Systems, Office Lighting, Telephone and Data, Security Lighting, Sockets and Switches, Light Fittings, Outdoor Electrical Work, Fixed wire testing',
+	'keywords' => 'Commercial electricians Warrington, Commercial electricians North West',
+	'ogtitle' => 'Fully equipped for all commercial projects',
+	'ogdescription' => 'At QUICK-ELEC we have the experience and qualifications to be well equipped to carry out all types of Commercial work quickly and efficiently.
+						Aiming at all times to achieve 100% customer satisfaction with our prompt and friendly service, if you require:
+						Fault Finding & Repairs, New Installations, Rewiring, Emergency Lighting, Fire Alarm Systems, Office Lighting, Telephone and Data, Security Lighting, Sockets and Switches, Light Fittings, Outdoor Electrical Work, Fixed wire testing',
+	'ogimage' => url('/') . '/images/fb_og/qe_office_fb.jpg',
+	'title' => 'Commercial Electricians in Warrington, Cheshire & North West | Quick-Elec'
 	])
 @stop
 
@@ -44,7 +49,7 @@
 	  		{{ Html::image('images/stock/qe_reception_desk.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
 	  	</article>
 	  	<article column="7">
-			<a href="{{ URL::to('contact') }}" class="sector-link">Contact us for more information &gt;</a>
+			<a href="{{ URL::to('contact') }}" class="sector-link">Contact us for more information</a>
 		</article>
 	  	<article column="5">
 	  		{{ Html::image('images/stock/qe_emergency_lighting.jpeg', 'Quick Elec', array('width' => 300 , 'height' => 200)) }}
