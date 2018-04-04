@@ -1,0 +1,435 @@
+@import "node_modules/concise.css/src/concise.scss";
+
+$blue: rgb(0, 51, 102);
+$grey: rgb(83, 96, 102);
+$white: #FFF;
+$sky: rgb(90, 138, 186);
+
+
+//
+// Main Styling
+// --------------
+
+[container] {
+    padding: 0;
+    width: auto;
+    border: none;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: auto;
+    max-width: none;
+    min-width: none;
+    height: 11em;
+    background: $sky;
+    background: rgba($blue, 0.9);
+    padding-top: 1em;
+}
+
+#header-content {
+    position: absolute;
+    background: url('/images/quick-elec_logo.png') no-repeat left 2em top .1em;
+    background-size: 20em;
+    width: 30em;
+    height: 7em;
+    
+    h1 {
+        display: none;
+    }
+}
+
+.social {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.social.facebook {
+    background: url('/images/icons/facebook_logo.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    right: 3.7em;
+    bottom: 6.3em;
+}
+
+.social.twitter {
+    background: url('/images/icons/twitter_logo.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    right: 8em;
+    bottom: 6.3em;
+}
+
+//
+// Contact us button
+// --------------------
+
+#contact-us {
+        position: absolute;
+        right: 2em;
+        bottom: 1.2em;
+        border-radius: 15px;
+        border: 2px solid $white;
+}
+
+// ----------------------
+
+#nav {
+    position: absolute;
+    bottom: 0;
+    
+    ul {
+        height: auto;
+    }
+    
+    li {
+        margin: 0;
+        padding: 0;
+        
+        a {
+            background: darken($blue, 5%);
+            background: rgba($blue, .7);
+            color: $white;
+            margin: 0;
+            padding: .7em 2em;
+            
+            &:hover {
+            background: lighten($blue, 5%);
+            background: rgba($blue, 1);
+            }
+        }
+    }
+}
+
+.page-content {
+    padding-top: 9.5em;
+    float: left;
+    
+    h2 {
+        color: $blue;
+    }
+}
+
+.page-content article {
+    margin-bottom: 2em;
+}
+
+.copy {
+    width: 45%;
+}
+
+.pics {
+    width: 45%;
+    background: red;
+    float: right;
+}
+
+
+//
+// Unslider Banner Styling
+// ------------------------
+
+.unslider-arrow {
+    top: 42em;
+    overflow: hidden;
+    text-indent: -999em;
+}
+
+.unslider-arrow.prev {
+    left: 20% !important;
+    width: 6em;
+    height: 4em;
+    background: url('/images/icons/arrow-left.png') no-repeat left 2em top;
+}
+
+.unslider-arrow.next {
+	right: 20% !important;
+	width: 6em;
+    height: 4em;
+    background: url('/images/icons/arrow-right.png') no-repeat left 2em top;
+}
+
+.unslider-nav {
+    position: absolute;
+    top: 43em;
+    left: 44%;
+}
+
+.unslider-nav ol li {
+    width: 10px !important;
+    height: 10px !important;
+    background: transparent;
+    border-radius: 5px;
+    border: 2px solid #999;
+}
+
+.banner-image {
+    height: 47em;
+}
+
+.banner-image-1 {
+    background: url('/images/stock/qe_plans.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+.banner-image-2 {
+    background: url('/images/stock/qe_electrician.jpeg') no-repeat top center;
+    background-size: cover;
+}
+    
+.banner-image-3 {
+    background: url('/images/stock/qe_cctv.jpeg') no-repeat top center;
+    background-size: cover;
+}
+    
+.banner-image-4 {
+    background: url('/images/stock/qe_board.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+.banner-image-5 {
+    background: url('/images/stock/qe_ceiling_spots.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+.banner-image-6 {
+    background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+
+%banner-copy {
+	width: 23em;
+    color: white;
+    font-size: 1em;
+    position: relative;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin-top: 16em;
+    text-align: center;
+    
+    strong {
+        font-weight: bolder;
+        font-size: 1.3em;
+    }
+}
+
+.banner-copy.left {
+	@extend %banner-copy;
+	background: rgba($sky, .8);
+	border: .1em solid $sky;
+	float: left;
+	margin-left: 3em;
+}
+
+.banner-copy.right {
+	@extend %banner-copy;
+	background: rgba($sky, .8);
+	border: .1em solid $sky;
+	float: right;
+	margin-right: 3em;
+}
+
+.header {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.4em;
+}
+
+//
+// General Page Styling
+// --------------------
+
+.full-page {
+    background: rgba($white, 0.8);
+    padding: 5em;
+    float: left;
+    
+    h2 {
+        margin-bottom: 1em;
+        line-height: 1.5em;
+    }
+}
+
+//
+// Home Page Styling
+// --------------------
+
+.page-content img {
+    margin-bottom: 3em;
+    border: 2px solid $blue;
+    padding: .2em;
+}
+
+.link-box {
+    height: 20em;
+    text-align: center;
+    border: .7em solid white;
+    padding: 0;
+    
+    &:last-of-type {
+        border-left: none;
+    }
+    
+    h3 {
+        color: $white;
+        height: 2.5em;
+        background-color: $blue;
+        background-color: rgba($blue, 0.75);
+        margin: 0;
+        line-height: 2.5em;
+    }
+}
+
+.domestic {
+    background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+.commercial {
+    background: url('/images/stock/qe_office.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+//
+// About Page Styling
+// --------------------
+
+.page-content.about {
+    background: url('/images/stock/qe_kitchen.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+.sector-link {
+    font-size: 1.4em;
+    float: left;
+    clear: left;
+    margin-top: 1.8em;
+}
+
+//
+// Commercial Page Styling
+// --------------------
+
+.page-content.commercial {
+    background: url('/images/stock/qe_office.jpeg') no-repeat top center;
+    background-size: cover;
+    
+    ul {
+        margin-bottom: 3em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
+}
+
+//
+// Domestic Page Styling
+// --------------------
+
+.page-content.domestic {
+    background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
+    background-size: cover;
+    
+    ul {
+        margin-bottom: 3em;
+    }
+    
+    li {
+        font-size: 1.3em;
+    }
+}
+
+//
+// Testimonial Page Styling
+// -------------------------
+
+.page-content.testimonials {
+    background: url('/images/stock/qe_kitchen.jpeg') no-repeat top center;
+    background-size: cover;
+}
+
+%quote {
+    width: 30em;
+    height: auto;
+    background-color: $white;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 2em;
+    
+    p {
+        margin-bottom: .6em;
+    }
+    
+    p:nth-of-type(1) {
+        font-size: 1.2em;
+        font-style: italic;
+    }
+    
+    p:nth-of-type(3) {
+        font-size: .9em;
+        font-weight: bold;
+    }
+}
+
+.quote-left {
+    @extend %quote;
+    float: left;
+}
+
+.quote-right {
+    @extend %quote;
+    float: right;
+}
+
+
+//
+// Contact Page Styling
+// --------------------
+
+.page-content.contact {
+    background: url('/images/stock/qe_reception_desk.jpeg') no-repeat top center;
+    background-size: cover;
+    padding: 3em;
+    float: none;
+}
+
+.contact-form {
+    width: 40em;
+    margin-top: 10em;
+    background: rgba($white, 0.8);
+    padding: 4em;
+    border-radius: 10px;
+    
+    h2 {
+        margin-bottom: 1em;
+        color: lighten($blue, 10%);
+    }
+    
+    label {
+        color: lighten($blue, 10%);
+        margin-bottom: 1.1em;
+        font-size: 1em;
+    }
+}
+
+
+//
+// Footer Styling
+// --------------
+
+footer {
+    height: 7em;
+    background: rgba($blue, 0.9);
+    padding: 2em;
+    clear: both;
+    
+    p {
+        color: lighten($blue, 40%);
+        font-size: .8em;
+    }
+    
+}
