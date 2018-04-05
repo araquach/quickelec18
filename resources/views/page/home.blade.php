@@ -12,12 +12,12 @@
 <div class="banner">
     <ul>
         <li class="banner-image banner-image-1"><a href="{{ URL::to('about') }}"><div class="banner-copy right"><span class="header">Expert residential and commercial electricians<br></span>
-        <br>Years of experience, friendly &amp reliable service
+        <br>Years of experience, friendly &amp; reliable service
         <br><br><strong>Find out more ></strong></div></a></li>
         <li class="banner-image banner-image-2"><a href="{{ URL::to('about') }}"><div class="banner-copy left"><span class="header">Full and partial rewires<br></span>
         <br>We offer a full range of services to the homeowner from fitting a couple of sockets or light fitting to a complete rewire
         <br><br><strong>Find out more ></strong></div></a></li>
-        <li class="banner-image banner-image-3"><a href="{{ URL::to('about') }}"><div class="banner-copy right"><span class="header">Burglar Alarm & CCTV installation<br></span>
+        <li class="banner-image banner-image-3"><a href="{{ URL::to('about') }}"><div class="banner-copy right"><span class="header">Burglar Alarm &amp; CCTV installation<br></span>
         <br>Ensure your home or business are fully secured. Quick-Elec will install burglar alarms and CCTV systems to suit your budget and your needs
         <br><br><strong>More info here ></strong></div></a></li>
         <li class="banner-image banner-image-4"><a href="{{ URL::to('about') }}"><div class="banner-copy left"><span class="header">Consumer unit upgrades<br></span>
