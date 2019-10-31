@@ -1,4 +1,6 @@
 @import "node_modules/concise.css/src/concise.scss";
+@import "node_modules/jquery-unslider/dist/sass/unslider.scss";
+@import "node_modules/jquery-unslider/dist/sass/unslider-dots.scss";
 
 $blue: rgb(0, 51, 102);
 $grey: rgb(83, 96, 102);
@@ -16,7 +18,7 @@ $mobile-device: "only screen and (max-device-width: 640px), only screen and (min
     padding: 0;
     max-width: 1150px;
     border: 1px solid rgba($grey, .5);
-    
+
     @media #{$mobile-device} {
         width: auto;
         margin: auto;
@@ -36,7 +38,7 @@ header {
     background: $blue;
     background: rgba($blue, 0.9);
     padding-top: 1em;
-    
+
     @media #{$mobile-device} {
         position: relative;
         margin: auto;
@@ -53,11 +55,11 @@ header {
     background-size: 20em;
     width: 30em;
     height: 7em;
-    
+
     h1 {
         display: none;
     }
-    
+
     @media #{$mobile-device} {
         background: url('/images/quick-elec_logo.png') no-repeat left 1em top;
         background-size: 15em;
@@ -69,7 +71,7 @@ header {
 .social {
     width: 2.5em;
     height: 2.5em;
-    
+
     @media #{$mobile-device} {
         display: none;
     }
@@ -101,7 +103,7 @@ header {
         bottom: 1.2em;
         border-radius: 15px;
         border: 2px solid $white;
-        
+
         @media #{$mobile-device} {
             display: none;
         }
@@ -112,43 +114,43 @@ header {
 #nav {
     position: absolute;
     bottom: 0;
-    
+
     @media #{$mobile-device} {
         width: auto;
         margin: auto;
         position: absolute;
         top: 6em;
     }
-    
+
     ul {
         height: auto;
-            
+
         @media #{$mobile-device} {
             background: rgba($blue, .7);
             padding: 1em;
             display: none;
         }
     }
-    
+
     li {
         margin: 0;
         padding: 0;
-        
+
         &:last-of-type {
             display: none;
-            
+
             @media #{$mobile-device} {
                 display: block;
             }
         }
-        
+
         a {
             background: darken($blue, 5%);
             background: rgba($blue, .7);
             color: $white;
             margin: 0;
             padding: .7em 2em;
-            
+
             @media #{$mobile-device} {
             width: auto;
             margin: 0;
@@ -157,7 +159,7 @@ header {
             font-size: 1.5em;
             background: none;
         }
-            
+
             &:hover {
             background: lighten($blue, 5%);
             background: rgba($blue, 1);
@@ -169,11 +171,11 @@ header {
 .page-content {
     padding-top: 9.5em;
     float: left;
-    
+
     @media #{$mobile-device} {
         padding-top: 0;
     }
-    
+
     h2 {
         color: $blue;
     }
@@ -218,7 +220,7 @@ header {
     top: 42em;
     overflow: hidden;
     text-indent: -999em;
-    
+
     @media #{$mobile-device} {
             top: 22em;
     }
@@ -229,7 +231,7 @@ header {
     width: 6em;
     height: 4em;
     background: url('/images/icons/arrow-left.png') no-repeat left 2em top;
-    
+
     @media #{$mobile-device} {
             width: 4em;
             height: 3em;
@@ -243,7 +245,7 @@ header {
 	width: 6em;
     height: 4em;
     background: url('/images/icons/arrow-right.png') no-repeat right 2em top;
-    
+
     @media #{$mobile-device} {
             width: 4em;
             height: 3em;
@@ -256,7 +258,7 @@ header {
     position: absolute;
     top: 43em;
     left: 44%;
-    
+
     @media #{$mobile-device} {
             display: none;
     }
@@ -272,7 +274,7 @@ header {
 
 .banner-image {
     height: 47em;
-    
+
     @media #{$mobile-device} {
             height: 20em;
     }
@@ -287,12 +289,12 @@ header {
     background: url('/images/stock/qe_electrician.jpeg') no-repeat top center;
     background-size: cover;
 }
-    
+
 .banner-image-3 {
     background: url('/images/stock/qe_cctv.jpeg') no-repeat top center;
     background-size: cover;
 }
-    
+
 .banner-image-4 {
     background: url('/images/stock/qe_board.jpeg') no-repeat top center;
     background-size: cover;
@@ -323,12 +325,12 @@ header {
     border-radius: 10px;
     margin-top: 16em;
     text-align: center;
-    
+
     strong {
         font-weight: bolder;
         font-size: 1.3em;
     }
-    
+
     @media #{$mobile-device} {
             width: 100%;
             height: 100%;
@@ -343,7 +345,7 @@ header {
 	border: .1em solid $sky;
 	float: left;
 	margin-left: 3em;
-	
+
 	@media #{$mobile-device} {
             float: none;
             border: none;
@@ -358,7 +360,7 @@ header {
 	border: .1em solid $sky;
 	float: right;
 	margin-right: 3em;
-	
+
 	@media #{$mobile-device} {
             float: none;
             border: none;
@@ -381,14 +383,14 @@ header {
     background: rgba($white, 0.9);
     padding: 5em;
     float: left;
-    
+
     @media #{$mobile-device} {
             width: auto;
             height: auto;
             margin: auto;
             padding: 2em;
     }
-    
+
     h2 {
         margin-bottom: 1em;
         line-height: 1.5em;
@@ -409,7 +411,7 @@ header {
     margin-bottom: 3em;
     border: 2px solid $white;
     padding: .2em;
-    
+
     @media #{$mobile-device} {
         margin: auto;
         width: auto;
@@ -421,7 +423,7 @@ header {
     text-align: center;
     border: .7em solid white;
     padding: 0;
-    
+
     @media #{$mobile-device} {
             float: none;
             border: none;
@@ -429,11 +431,11 @@ header {
             margin: auto;
             margin-top: 1em;
     }
-    
+
     &:last-of-type {
         border-left: none;
     }
-    
+
     h3 {
         color: $white;
         height: 2.5em;
@@ -473,11 +475,11 @@ a.sector-link {
     background: rgba($blue, 0.75);
     color: $white;
     border-radius: 5px;
-    
+
     &:hover {
         opacity: .7;
     }
-    
+
     @media #{$mobile-device} {
             font-size: 1em;
     }
@@ -490,11 +492,11 @@ a.sector-link {
 .page-content.commercial {
     background: url('/images/stock/qe_office.jpeg') no-repeat top center;
     background-size: cover;
-    
+
     ul {
         margin-bottom: 3em;
     }
-    
+
     li {
         font-size: 1.3em;
     }
@@ -507,11 +509,11 @@ a.sector-link {
 .page-content.domestic {
     background: url('/images/stock/qe_living_room.jpeg') no-repeat top center;
     background-size: cover;
-    
+
     ul {
         margin-bottom: 3em;
     }
-    
+
     li {
         font-size: 1.3em;
     }
@@ -524,11 +526,11 @@ a.sector-link {
 .page-content.exterior {
     background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
     background-size: cover;
-    
+
     ul {
         margin-bottom: 3em;
     }
-    
+
     li {
         font-size: 1.3em;
     }
@@ -550,20 +552,20 @@ a.sector-link {
     padding: 2em;
     margin-bottom: 2em;
     border-radius: 2em;
-    
+
     @media #{$mobile-device} {
         width: auto;
     }
-    
+
     p {
         margin-bottom: .6em;
     }
-    
+
     p:nth-of-type(1) {
         font-size: 1.2em;
         font-style: italic;
     }
-    
+
     p:nth-of-type(3) {
         font-size: .9em;
         font-weight: bold;
@@ -590,7 +592,7 @@ a.sector-link {
     background-size: cover;
     padding: 3em;
     float: none;
-    
+
     @media #{$mobile-device} {
         padding: 0;
     }
@@ -602,37 +604,37 @@ a.sector-link {
     background: rgba($white, 0.8);
     padding: 4em;
     border-radius: 10px;
-    
+
     @media #{$mobile-device} {
         width: auto;
         margin: auto;
         border-radius: 0;
         padding: 2em;
     }
-    
+
     h2 {
         margin-bottom: 1em;
         color: lighten($blue, 10%);
     }
-    
+
     label {
         color: lighten($blue, 10%);
         margin-bottom: 1.1em;
         font-size: 1em;
     }
-    
+
     ul {
         border: 1px solid red;
         background: lighten(red, 50%);
         padding: 1em;
         margin-bottom: 2em;
-        
+
         li {
             color: red;
             list-style: none;
         }
     }
-    
+
     .errorMessage {
         color: red;
     }
@@ -649,17 +651,17 @@ footer {
     padding: 2em;
     clear: both;
     position: relative;
-    
+
     p {
         color: lighten($blue, 40%);
         font-size: .8em;
-        
+
         @media #{$mobile-device} {
             width: 50%;
             margin-top: -1em;
         }
     }
-    
+
     .rated {
         position: absolute;
         right: 3em;
@@ -668,7 +670,7 @@ footer {
         height: 8em;
         background: url('/images/icons/rated_people.png') no-repeat center;
         background-size: contain;
-        
+
         @media #{$mobile-device} {
             width: 8em;
             height: 5em;
@@ -676,9 +678,5 @@ footer {
             top: 1em;
         }
     }
-    
+
 }
-
-
-
-

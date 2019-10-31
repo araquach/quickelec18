@@ -8,7 +8,6 @@
 
 @section('content')
 
-
 <div class="banner">
     <ul>
         <li class="banner-image banner-image-1"><a href="{{ URL::to('about') }}"><div class="banner-copy right"><span class="header">Expert residential and commercial electricians<br></span>
@@ -36,7 +35,7 @@
 </div>
 
 <section grid>
-  <article column="6" class="link-box domestic"><a href="{{ url('/domestic') }}"><h3>Hello! Domestic Projects</h3></a></article>
+  <article column="6" class="link-box domestic"><a href="{{ url('/domestic') }}"><h3>Domestic Projects</h3></a></article>
   <article column="6" class="link-box commercial"><a href="{{ url('/commercial') }}"><h3>Commercial Projects</h3></a></article>
 </section>
 

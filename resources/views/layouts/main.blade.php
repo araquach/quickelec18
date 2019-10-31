@@ -45,17 +45,8 @@
                 <p>© {{ now()->year }} Quick-Elec. Warrington, Cheshire &amp; North West Electricians. Site by Contra Design</p>
                 <a href="https://www.ratedpeople.com/profile/quick-elec/" target="_blank"><div class="rated"></div></a>
             </footer>
-        </div>  
-        <script>
-            $(document).ready(function(){
-                var button = '<a href="#" class="menu-b"></a>';
-                $('#nav').parent().append(button);
-                $('a.menu-b').click(function(){
-			        $('#nav ul').slideToggle();
-		            return false;
-		        }); // end click
-        	});
-        </script>
-
+        </div>
+        <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/mob-nav.js') }}"></script>
     </body>
 </html>
