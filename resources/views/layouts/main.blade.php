@@ -46,7 +46,9 @@
                 <a href="https://www.ratedpeople.com/profile/quick-elec/" target="_blank"><div class="rated"></div></a>
             </footer>
         </div>
-        <script type="text/javascript" src="{{ URL::asset('js/app.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/unslider.js') }}"></script>
+        <script type="text/javascript" src="{{ URL::asset('js/mob-nav.js') }}"></script>
         <script>
             $(document).ready(function(){
                 var button = '<a href="#" class="menu-b"></a>';

@@ -9,4 +9,3 @@ jQuery.noConflict();
 		}); // end click
 	});
 })(jQuery);
-//# sourceMappingURL=mob-nav.js.map

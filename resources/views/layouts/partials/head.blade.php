@@ -21,7 +21,6 @@
 	<meta property="og:url" content="{{ url()->current() }}">
 
 	<!-- Google Analytics -->
-
 	<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -36,7 +35,8 @@
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ mix('css/app.css') }}" />
 
-
+	<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/unslider.js') }}"></script>
 	<script src="https://use.typekit.net/rix1nhd.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
