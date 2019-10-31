@@ -34,9 +34,8 @@
 	<title>{{ $title or 'Electricians in Warrington, Cheshire & North West | Quick-Elec' }}</title>
 
 	<link rel="stylesheet" type="text/css" media="screen" href="{{ mix('css/app.css') }}" />
-
 	<script type="text/javascript" src="{{ URL::asset('js/jquery.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('js/unslider.js') }}"></script>
+	
 	<script src="https://use.typekit.net/rix1nhd.js"></script>
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 
