@@ -36,7 +36,7 @@
 </div>
 
 <section grid>
-  <article column="6" class="link-box domestic"><a href="{{ url('/domestic') }}"><h3>Domestic Projects</h3></a></article>
+  <article column="6" class="link-box domestic"><a href="{{ url('/domestic') }}"><h3>Hello! Domestic Projects</h3></a></article>
   <article column="6" class="link-box commercial"><a href="{{ url('/commercial') }}"><h3>Commercial Projects</h3></a></article>
 </section>
 

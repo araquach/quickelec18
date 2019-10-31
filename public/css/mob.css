@@ -2971,41 +2971,21 @@ ol.dropdown-content {
 
 [container] {
   padding: 0;
-  max-width: 1150px;
-  border: 1px solid rgba(83, 96, 102, 0.5);
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  [container] {
-    width: auto;
-    margin: auto;
-    min-width: none;
-    border: none;
-  }
+  width: auto;
+  border: none;
 }
 
 header {
   position: absolute;
   top: 0;
   z-index: 2;
-  width: 100%;
-  max-width: 1148px;
-  min-width: 750px;
+  width: auto;
+  max-width: none;
+  min-width: none;
   height: 11em;
-  background: #003366;
+  background: #5a8aba;
   background: rgba(0, 51, 102, 0.9);
   padding-top: 1em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  header {
-    position: relative;
-    margin: auto;
-    width: auto;
-    max-width: none;
-    min-width: 0;
-    height: 6em;
-  }
 }
 
 #header-content {
@@ -3020,24 +3000,9 @@ header {
   display: none;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  #header-content {
-    background: url("/images/quick-elec_logo.png") no-repeat left 1em top;
-    background-size: 15em;
-    width: 20em;
-    height: 5em;
-  }
-}
-
 .social {
   width: 2.5em;
   height: 2.5em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .social {
-    display: none;
-  }
 }
 
 .social.facebook {
@@ -3064,51 +3029,18 @@ header {
   border: 2px solid #FFF;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  #contact-us {
-    display: none;
-  }
-}
-
 #nav {
   position: absolute;
   bottom: 0;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  #nav {
-    width: auto;
-    margin: auto;
-    position: absolute;
-    top: 6em;
-  }
 }
 
 #nav ul {
   height: auto;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  #nav ul {
-    background: rgba(0, 51, 102, 0.7);
-    padding: 1em;
-    display: none;
-  }
-}
-
 #nav li {
   margin: 0;
   padding: 0;
-}
-
-#nav li:last-of-type {
-  display: none;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  #nav li:last-of-type {
-    display: block;
-  }
 }
 
 #nav li a {
@@ -3119,17 +3051,6 @@ header {
   padding: 0.7em 2em;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  #nav li a {
-    width: auto;
-    margin: 0;
-    padding: 0.7em;
-    line-height: 2em;
-    font-size: 1.5em;
-    background: none;
-  }
-}
-
 #nav li a:hover {
   background: #004080;
   background: #003366;
@@ -3138,12 +3059,6 @@ header {
 .page-content {
   padding-top: 9.5em;
   float: left;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .page-content {
-    padding-top: 0;
-  }
 }
 
 .page-content h2 {
@@ -3164,30 +3079,10 @@ header {
   float: right;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  a.menu-b {
-    position: absolute;
-    right: 2em;
-    top: 2.8em;
-    width: 30px;
-    height: 25px;
-    background: url("/images/icons/menu_button2.png") no-repeat left top;
-    background-size: contain;
-    display: block;
-    margin: 0;
-  }
-}
-
 .unslider-arrow {
   top: 42em;
   overflow: hidden;
   text-indent: -999em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .unslider-arrow {
-    top: 22em;
-  }
 }
 
 .unslider-arrow.prev {
@@ -3197,41 +3092,17 @@ header {
   background: url("/images/icons/arrow-left.png") no-repeat left 2em top;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .unslider-arrow.prev {
-    width: 4em;
-    height: 3em;
-    background: url("/images/icons/arrow-left.png") no-repeat left 2em top;
-    background-size: contain;
-  }
-}
-
 .unslider-arrow.next {
   right: 20% !important;
   width: 6em;
   height: 4em;
-  background: url("/images/icons/arrow-right.png") no-repeat right 2em top;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .unslider-arrow.next {
-    width: 4em;
-    height: 3em;
-    background: url("/images/icons/arrow-right.png") no-repeat right 2em top;
-    background-size: contain;
-  }
+  background: url("/images/icons/arrow-right.png") no-repeat left 2em top;
 }
 
 .unslider-nav {
   position: absolute;
   top: 43em;
   left: 44%;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .unslider-nav {
-    display: none;
-  }
 }
 
 .unslider-nav ol li {
@@ -3244,12 +3115,6 @@ header {
 
 .banner-image {
   height: 47em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .banner-image {
-    height: 20em;
-  }
 }
 
 .banner-image-1 {
@@ -3305,30 +3170,11 @@ header {
   font-size: 1.3em;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .banner-copy.right,
-  .banner-copy.left {
-    width: 100%;
-    height: 100%;
-    font-size: 1em;
-    border-radius: 0;
-  }
-}
-
 .banner-copy.left {
   background: rgba(90, 138, 186, 0.8);
   border: 0.1em solid #5a8aba;
   float: left;
   margin-left: 3em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .banner-copy.left {
-    float: none;
-    border: none;
-    margin: auto;
-    background: rgba(90, 138, 186, 0.6);
-  }
 }
 
 .banner-copy.right {
@@ -3338,15 +3184,6 @@ header {
   margin-right: 3em;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .banner-copy.right {
-    float: none;
-    border: none;
-    margin: auto;
-    background: rgba(90, 138, 186, 0.6);
-  }
-}
-
 .header {
   font-size: 2em;
   font-weight: bold;
@@ -3354,18 +3191,9 @@ header {
 }
 
 .full-page {
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.8);
   padding: 5em;
   float: left;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .full-page {
-    width: auto;
-    height: auto;
-    margin: auto;
-    padding: 2em;
-  }
 }
 
 .full-page h2 {
@@ -3373,23 +3201,10 @@ header {
   line-height: 1.5em;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  [column] {
-    padding: 0;
-  }
-}
-
 .page-content img {
   margin-bottom: 3em;
-  border: 2px solid #FFF;
+  border: 2px solid #003366;
   padding: 0.2em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .page-content img {
-    margin: auto;
-    width: auto;
-  }
 }
 
 .link-box {
@@ -3397,16 +3212,6 @@ header {
   text-align: center;
   border: 0.7em solid white;
   padding: 0;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .link-box {
-    float: none;
-    border: none;
-    width: auto;
-    margin: auto;
-    margin-top: 1em;
-  }
 }
 
 .link-box:last-of-type {
@@ -3437,26 +3242,11 @@ header {
   background-size: cover;
 }
 
-a.sector-link {
+.sector-link {
   font-size: 1.4em;
   float: left;
   clear: left;
   margin-top: 1.8em;
-  padding: 0.7em;
-  background: #003366;
-  background: rgba(0, 51, 102, 0.75);
-  color: #FFF;
-  border-radius: 5px;
-}
-
-a.sector-link:hover {
-  opacity: 0.7;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  a.sector-link {
-    font-size: 1em;
-  }
 }
 
 .page-content.commercial {
@@ -3473,7 +3263,7 @@ a.sector-link:hover {
 }
 
 .page-content.domestic {
-  background: url("/images/stock/qe_living_room.jpeg") no-repeat top center;
+  background: url("/images/stock/qe_living_room.jpg") no-repeat top center;
   background-size: cover;
 }
 
@@ -3485,16 +3275,16 @@ a.sector-link:hover {
   font-size: 1.3em;
 }
 
-.page-content.exterior {
+.page-content.domestic {
   background: url("/images/stock/qe_exterior.jpeg") no-repeat top center;
   background-size: cover;
 }
 
-.page-content.exterior ul {
+.page-content.domestic ul {
   margin-bottom: 3em;
 }
 
-.page-content.exterior li {
+.page-content.domestic li {
   font-size: 1.3em;
 }
 
@@ -3511,13 +3301,6 @@ a.sector-link:hover {
   padding: 2em;
   margin-bottom: 2em;
   border-radius: 2em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .quote-right,
-  .quote-left {
-    width: auto;
-  }
 }
 
 .quote-right p,
@@ -3552,27 +3335,12 @@ a.sector-link:hover {
   float: none;
 }
 
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .page-content.contact {
-    padding: 0;
-  }
-}
-
 .contact-form {
   width: 40em;
   margin-top: 10em;
   background: rgba(255, 255, 255, 0.8);
   padding: 4em;
   border-radius: 10px;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  .contact-form {
-    width: auto;
-    margin: auto;
-    border-radius: 0;
-    padding: 2em;
-  }
 }
 
 .contact-form h2 {
@@ -3586,58 +3354,15 @@ a.sector-link:hover {
   font-size: 1em;
 }
 
-.contact-form ul {
-  border: 1px solid red;
-  background: white;
-  padding: 1em;
-  margin-bottom: 2em;
-}
-
-.contact-form ul li {
-  color: red;
-  list-style: none;
-}
-
-.contact-form .errorMessage {
-  color: red;
-}
-
 footer {
   height: 7em;
   background: rgba(0, 51, 102, 0.9);
   padding: 2em;
   clear: both;
-  position: relative;
 }
 
 footer p {
   color: #3399ff;
   font-size: 0.8em;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  footer p {
-    width: 50%;
-    margin-top: -1em;
-  }
-}
-
-footer .rated {
-  position: absolute;
-  right: 3em;
-  top: -0.5em;
-  width: 12em;
-  height: 8em;
-  background: url("/images/icons/rated_people.png") no-repeat center;
-  background-size: contain;
-}
-
-@media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
-  footer .rated {
-    width: 8em;
-    height: 5em;
-    right: 2em;
-    top: 1em;
-  }
 }
 

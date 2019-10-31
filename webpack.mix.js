@@ -11,5 +11,11 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+   mix.sass('resources/assets/sass/app.scss', 'public/css').version();
+   mix.sass('resources/assets/sass/mob.scss', 'public/css').version();
+
+   mix.scripts([
+       'resources/assets/js/jquery.min.js',
+       'resources/assets/js/mob-nav.js',
+       'resources/assets/js/unslider-min.js'
+   ], 'public/js/app.js');
