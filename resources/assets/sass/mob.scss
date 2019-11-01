@@ -31,11 +31,11 @@ header {
 
 #header-content {
     position: absolute;
-    background: url('/images/quick-elec_logo.png') no-repeat left 2em top .1em;
+    background: url('/images/new_logo.png') no-repeat left 2em top .1em;
     background-size: 20em;
     width: 30em;
     height: 7em;
-    
+
     h1 {
         display: none;
     }
@@ -79,22 +79,22 @@ header {
 #nav {
     position: absolute;
     bottom: 0;
-    
+
     ul {
         height: auto;
     }
-    
+
     li {
         margin: 0;
         padding: 0;
-        
+
         a {
             background: darken($blue, 5%);
             background: rgba($blue, .7);
             color: $white;
             margin: 0;
             padding: .7em 2em;
-            
+
             &:hover {
             background: lighten($blue, 5%);
             background: rgba($blue, 1);
@@ -106,7 +106,7 @@ header {
 .page-content {
     padding-top: 9.5em;
     float: left;
-    
+
     h2 {
         color: $blue;
     }
@@ -178,12 +178,12 @@ header {
     background: url('/images/stock/qe_electrician.jpeg') no-repeat top center;
     background-size: cover;
 }
-    
+
 .banner-image-3 {
     background: url('/images/stock/qe_cctv.jpeg') no-repeat top center;
     background-size: cover;
 }
-    
+
 .banner-image-4 {
     background: url('/images/stock/qe_board.jpeg') no-repeat top center;
     background-size: cover;
@@ -214,7 +214,7 @@ header {
     border-radius: 10px;
     margin-top: 16em;
     text-align: center;
-    
+
     strong {
         font-weight: bolder;
         font-size: 1.3em;
@@ -251,7 +251,7 @@ header {
     background: rgba($white, 0.8);
     padding: 5em;
     float: left;
-    
+
     h2 {
         margin-bottom: 1em;
         line-height: 1.5em;
@@ -273,11 +273,11 @@ header {
     text-align: center;
     border: .7em solid white;
     padding: 0;
-    
+
     &:last-of-type {
         border-left: none;
     }
-    
+
     h3 {
         color: $white;
         height: 2.5em;
@@ -321,11 +321,11 @@ header {
 .page-content.commercial {
     background: url('/images/stock/qe_office.jpeg') no-repeat top center;
     background-size: cover;
-    
+
     ul {
         margin-bottom: 3em;
     }
-    
+
     li {
         font-size: 1.3em;
     }
@@ -338,11 +338,11 @@ header {
 .page-content.domestic {
     background: url('/images/stock/qe_living_room.jpg') no-repeat top center;
     background-size: cover;
-    
+
     ul {
         margin-bottom: 3em;
     }
-    
+
     li {
         font-size: 1.3em;
     }
@@ -355,11 +355,11 @@ header {
 .page-content.domestic {
     background: url('/images/stock/qe_exterior.jpeg') no-repeat top center;
     background-size: cover;
-    
+
     ul {
         margin-bottom: 3em;
     }
-    
+
     li {
         font-size: 1.3em;
     }
@@ -381,16 +381,16 @@ header {
     padding: 2em;
     margin-bottom: 2em;
     border-radius: 2em;
-    
+
     p {
         margin-bottom: .6em;
     }
-    
+
     p:nth-of-type(1) {
         font-size: 1.2em;
         font-style: italic;
     }
-    
+
     p:nth-of-type(3) {
         font-size: .9em;
         font-weight: bold;
@@ -425,12 +425,12 @@ header {
     background: rgba($white, 0.8);
     padding: 4em;
     border-radius: 10px;
-    
+
     h2 {
         margin-bottom: 1em;
         color: lighten($blue, 10%);
     }
-    
+
     label {
         color: lighten($blue, 10%);
         margin-bottom: 1.1em;
@@ -448,10 +448,10 @@ footer {
     background: rgba($blue, 0.9);
     padding: 2em;
     clear: both;
-    
+
     p {
         color: lighten($blue, 40%);
         font-size: .8em;
     }
-    
+
 }

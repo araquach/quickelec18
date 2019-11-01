@@ -3075,8 +3075,8 @@ header {
   max-width: 1148px;
   min-width: 750px;
   height: 11em;
-  background: #003366;
-  background: rgba(0, 51, 102, 0.9);
+  background: #000033;
+  background: rgba(0, 0, 51, 0.9);
   padding-top: 1em;
 }
 
@@ -3087,16 +3087,16 @@ header {
     width: auto;
     max-width: none;
     min-width: 0;
-    height: 6em;
+    height: 7rem;
   }
 }
 
 #header-content {
   position: absolute;
-  background: url("/images/quick-elec_logo.png") no-repeat left 2em top 0.1em;
-  background-size: 20em;
-  width: 30em;
-  height: 7em;
+  background: url("/images/new_logo.png") no-repeat left 0.5em top -0.5em;
+  background-size: contain;
+  width: 16rem;
+  height: 10rem;
 }
 
 #header-content h1 {
@@ -3105,10 +3105,10 @@ header {
 
 @media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
   #header-content {
-    background: url("/images/quick-elec_logo.png") no-repeat left 1em top;
-    background-size: 15em;
-    width: 20em;
-    height: 5em;
+    background: url("/images/new_logo.png") no-repeat left 0.5em top -1em;
+    background-size: contain;
+    width: 13rem;
+    height: 7rem;
   }
 }
 
@@ -3163,7 +3163,7 @@ header {
     width: auto;
     margin: auto;
     position: absolute;
-    top: 6em;
+    top: 7em;
   }
 }
 
@@ -3173,7 +3173,7 @@ header {
 
 @media only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait) {
   #nav ul {
-    background: rgba(0, 51, 102, 0.7);
+    background: rgba(0, 0, 51, 0.7);
     padding: 1em;
     display: none;
   }
@@ -3195,8 +3195,8 @@ header {
 }
 
 #nav li a {
-  background: #00264d;
-  background: rgba(0, 51, 102, 0.7);
+  background: #00001a;
+  background: rgba(0, 0, 51, 0.7);
   color: #FFF;
   margin: 0;
   padding: 0.7em 2em;
@@ -3214,8 +3214,8 @@ header {
 }
 
 #nav li a:hover {
-  background: #004080;
-  background: #003366;
+  background: #00004d;
+  background: #000033;
 }
 
 .page-content {
@@ -3230,7 +3230,7 @@ header {
 }
 
 .page-content h2 {
-  color: #003366;
+  color: #000033;
 }
 
 .page-content article {
@@ -3499,8 +3499,8 @@ header {
 .link-box h3 {
   color: #FFF;
   height: 2.5em;
-  background-color: #003366;
-  background-color: rgba(0, 51, 102, 0.75);
+  background-color: #000033;
+  background-color: rgba(0, 0, 51, 0.75);
   margin: 0;
   line-height: 2.5em;
 }
@@ -3526,8 +3526,8 @@ a.sector-link {
   clear: left;
   margin-top: 1.8em;
   padding: 0.7em;
-  background: #003366;
-  background: rgba(0, 51, 102, 0.75);
+  background: #000033;
+  background: rgba(0, 0, 51, 0.75);
   color: #FFF;
   border-radius: 5px;
 }
@@ -3660,11 +3660,11 @@ a.sector-link:hover {
 
 .contact-form h2 {
   margin-bottom: 1em;
-  color: #004d99;
+  color: #000066;
 }
 
 .contact-form label {
-  color: #004d99;
+  color: #000066;
   margin-bottom: 1.1em;
   font-size: 1em;
 }
@@ -3687,14 +3687,14 @@ a.sector-link:hover {
 
 footer {
   height: 7em;
-  background: rgba(0, 51, 102, 0.9);
+  background: rgba(0, 0, 51, 0.9);
   padding: 2em;
   clear: both;
   position: relative;
 }
 
 footer p {
-  color: #3399ff;
+  color: blue;
   font-size: 0.8em;
 }
 

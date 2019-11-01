@@ -2,11 +2,10 @@
 @import "node_modules/jquery-unslider/dist/sass/unslider.scss";
 @import "node_modules/jquery-unslider/dist/sass/unslider-dots.scss";
 
-$blue: rgb(0, 51, 102);
+$blue: rgb(0,0,51);
 $grey: rgb(83, 96, 102);
 $white: #FFF;
 $sky: rgb(90, 138, 186);
-
 $mobile-device: "only screen and (max-device-width: 640px), only screen and (min-device-width : 719px) and (max-device-width : 721px) and (-webkit-min-device-pixel-ratio : 2) and (orientation : portrait)";
 
 
@@ -45,26 +44,26 @@ header {
         width: auto;
         max-width: none;
         min-width: 0;
-        height: 6em;
+        height: 7rem;
     }
 }
 
 #header-content {
     position: absolute;
-    background: url('/images/quick-elec_logo.png') no-repeat left 2em top .1em;
-    background-size: 20em;
-    width: 30em;
-    height: 7em;
+    background: url('/images/new_logo.png') no-repeat left .5em top -.5em;
+    background-size: contain;
+    width: 16rem;
+    height: 10rem;
 
     h1 {
         display: none;
     }
 
     @media #{$mobile-device} {
-        background: url('/images/quick-elec_logo.png') no-repeat left 1em top;
-        background-size: 15em;
-        width: 20em;
-        height: 5em;
+        background: url('/images/new_logo.png') no-repeat left .5em top -1em;
+        background-size: contain;
+        width: 13rem;
+        height: 7rem;
     }
 }
 
@@ -119,7 +118,7 @@ header {
         width: auto;
         margin: auto;
         position: absolute;
-        top: 6em;
+        top: 7em;
     }
 
     ul {
